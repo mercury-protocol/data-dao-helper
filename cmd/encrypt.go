@@ -8,7 +8,6 @@ import (
 	"github.com/spf13/cobra"
 )
 
-// 12345678912345678912345678912345
 var encryptCmd = &cobra.Command{
 	Use:   "encrypt [key, path]",
 	Short: "encrypts the given file with the given key",
